@@ -6,9 +6,12 @@ import SwiftUI
 struct ImagePicker: UIViewControllerRepresentable {
     @Binding var image: Image?
     @Binding var plantInfo: String
+//    @Binding var isLoading: Bool
     @Environment(\.presentationMode) var presentationMode
     
     var sourceType: UIImagePickerController.SourceType
+    
+    @Binding var isLoading: Bool
 
     func makeUIViewController(context: Context) -> UIImagePickerController {
         let picker = UIImagePickerController()
@@ -32,6 +35,7 @@ struct ImagePicker: UIViewControllerRepresentable {
 
         func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
             if let uiImage = info[.originalImage] as? UIImage {
+                parent.isLoading = true
                 parent.image = Image(uiImage: uiImage)
                 parent.uploadImageToAI(uiImage)
             }
@@ -58,6 +62,7 @@ struct ImagePicker: UIViewControllerRepresentable {
             } catch {
                 print("Error: \(error)")
             }
+            self.isLoading = false
         }
     
     }
