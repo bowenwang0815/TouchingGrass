@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0858AF7C2BD49FEF00FECDAE /* lahackappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0858AF7B2BD49FEF00FECDAE /* lahackappApp.swift */; };
+		0858AF7E2BD49FEF00FECDAE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0858AF7D2BD49FEF00FECDAE /* ContentView.swift */; };
+		0858AF802BD49FF000FECDAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0858AF7F2BD49FF000FECDAE /* Assets.xcassets */; };
+		0858AF842BD49FF000FECDAE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0858AF832BD49FF000FECDAE /* Preview Assets.xcassets */; };
+		0858AF8E2BD49FF000FECDAE /* lahackappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0858AF8D2BD49FF000FECDAE /* lahackappTests.swift */; };
+		0858AF982BD49FF000FECDAE /* lahackappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0858AF972BD49FF000FECDAE /* lahackappUITests.swift */; };
+		0858AF9A2BD49FF000FECDAE /* lahackappUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0858AF992BD49FF000FECDAE /* lahackappUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0858AF8A2BD49FF000FECDAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0858AF702BD49FEF00FECDAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0858AF772BD49FEF00FECDAE;
+			remoteInfo = lahackapp;
+		};
+		0858AF942BD49FF000FECDAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0858AF702BD49FEF00FECDAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0858AF772BD49FEF00FECDAE;
+			remoteInfo = lahackapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0858AF782BD49FEF00FECDAE /* lahackapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lahackapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0858AF7B2BD49FEF00FECDAE /* lahackappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lahackappApp.swift; sourceTree = "<group>"; };
+		0858AF7D2BD49FEF00FECDAE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0858AF7F2BD49FF000FECDAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0858AF812BD49FF000FECDAE /* lahackapp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = lahackapp.entitlements; sourceTree = "<group>"; };
+		0858AF832BD49FF000FECDAE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0858AF892BD49FF000FECDAE /* lahackappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lahackappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0858AF8D2BD49FF000FECDAE /* lahackappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lahackappTests.swift; sourceTree = "<group>"; };
+		0858AF932BD49FF000FECDAE /* lahackappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lahackappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0858AF972BD49FF000FECDAE /* lahackappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lahackappUITests.swift; sourceTree = "<group>"; };
+		0858AF992BD49FF000FECDAE /* lahackappUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lahackappUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0858AF752BD49FEF00FECDAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0858AF862BD49FF000FECDAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0858AF902BD49FF000FECDAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0858AF6F2BD49FEF00FECDAE = {
+			isa = PBXGroup;
+			children = (
+				0858AF7A2BD49FEF00FECDAE /* lahackapp */,
+				0858AF8C2BD49FF000FECDAE /* lahackappTests */,
+				0858AF962BD49FF000FECDAE /* lahackappUITests */,
+				0858AF792BD49FEF00FECDAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0858AF792BD49FEF00FECDAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0858AF782BD49FEF00FECDAE /* lahackapp.app */,
+				0858AF892BD49FF000FECDAE /* lahackappTests.xctest */,
+				0858AF932BD49FF000FECDAE /* lahackappUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0858AF7A2BD49FEF00FECDAE /* lahackapp */ = {
+			isa = PBXGroup;
+			children = (
+				0858AF7B2BD49FEF00FECDAE /* lahackappApp.swift */,
+				0858AF7D2BD49FEF00FECDAE /* ContentView.swift */,
+				0858AF7F2BD49FF000FECDAE /* Assets.xcassets */,
+				0858AF812BD49FF000FECDAE /* lahackapp.entitlements */,
+				0858AF822BD49FF000FECDAE /* Preview Content */,
+			);
+			path = lahackapp;
+			sourceTree = "<group>";
+		};
+		0858AF822BD49FF000FECDAE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0858AF832BD49FF000FECDAE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0858AF8C2BD49FF000FECDAE /* lahackappTests */ = {
+			isa = PBXGroup;
+			children = (
+				0858AF8D2BD49FF000FECDAE /* lahackappTests.swift */,
+			);
+			path = lahackappTests;
+			sourceTree = "<group>";
+		};
+		0858AF962BD49FF000FECDAE /* lahackappUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0858AF972BD49FF000FECDAE /* lahackappUITests.swift */,
+				0858AF992BD49FF000FECDAE /* lahackappUITestsLaunchTests.swift */,
+			);
+			path = lahackappUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0858AF772BD49FEF00FECDAE /* lahackapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0858AF9D2BD49FF000FECDAE /* Build configuration list for PBXNativeTarget "lahackapp" */;
+			buildPhases = (
+				0858AF742BD49FEF00FECDAE /* Sources */,
+				0858AF752BD49FEF00FECDAE /* Frameworks */,
+				0858AF762BD49FEF00FECDAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lahackapp;
+			productName = lahackapp;
+			productReference = 0858AF782BD49FEF00FECDAE /* lahackapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0858AF882BD49FF000FECDAE /* lahackappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0858AFA02BD49FF000FECDAE /* Build configuration list for PBXNativeTarget "lahackappTests" */;
+			buildPhases = (
+				0858AF852BD49FF000FECDAE /* Sources */,
+				0858AF862BD49FF000FECDAE /* Frameworks */,
+				0858AF872BD49FF000FECDAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0858AF8B2BD49FF000FECDAE /* PBXTargetDependency */,
+			);
+			name = lahackappTests;
+			productName = lahackappTests;
+			productReference = 0858AF892BD49FF000FECDAE /* lahackappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0858AF922BD49FF000FECDAE /* lahackappUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0858AFA32BD49FF000FECDAE /* Build configuration list for PBXNativeTarget "lahackappUITests" */;
+			buildPhases = (
+				0858AF8F2BD49FF000FECDAE /* Sources */,
+				0858AF902BD49FF000FECDAE /* Frameworks */,
+				0858AF912BD49FF000FECDAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0858AF952BD49FF000FECDAE /* PBXTargetDependency */,
+			);
+			name = lahackappUITests;
+			productName = lahackappUITests;
+			productReference = 0858AF932BD49FF000FECDAE /* lahackappUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0858AF702BD49FEF00FECDAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					0858AF772BD49FEF00FECDAE = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					0858AF882BD49FF000FECDAE = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 0858AF772BD49FEF00FECDAE;
+					};
+					0858AF922BD49FF000FECDAE = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 0858AF772BD49FEF00FECDAE;
+					};
+				};
+			};
+			buildConfigurationList = 0858AF732BD49FEF00FECDAE /* Build configuration list for PBXProject "lahackapp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0858AF6F2BD49FEF00FECDAE;
+			productRefGroup = 0858AF792BD49FEF00FECDAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0858AF772BD49FEF00FECDAE /* lahackapp */,
+				0858AF882BD49FF000FECDAE /* lahackappTests */,
+				0858AF922BD49FF000FECDAE /* lahackappUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0858AF762BD49FEF00FECDAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0858AF842BD49FF000FECDAE /* Preview Assets.xcassets in Resources */,
+				0858AF802BD49FF000FECDAE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0858AF872BD49FF000FECDAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0858AF912BD49FF000FECDAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0858AF742BD49FEF00FECDAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0858AF7E2BD49FEF00FECDAE /* ContentView.swift in Sources */,
+				0858AF7C2BD49FEF00FECDAE /* lahackappApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0858AF852BD49FF000FECDAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0858AF8E2BD49FF000FECDAE /* lahackappTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0858AF8F2BD49FF000FECDAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0858AF9A2BD49FF000FECDAE /* lahackappUITestsLaunchTests.swift in Sources */,
+				0858AF982BD49FF000FECDAE /* lahackappUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0858AF8B2BD49FF000FECDAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0858AF772BD49FEF00FECDAE /* lahackapp */;
+			targetProxy = 0858AF8A2BD49FF000FECDAE /* PBXContainerItemProxy */;
+		};
+		0858AF952BD49FF000FECDAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0858AF772BD49FEF00FECDAE /* lahackapp */;
+			targetProxy = 0858AF942BD49FF000FECDAE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0858AF9B2BD49FF000FECDAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0858AF9C2BD49FF000FECDAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		0858AF9E2BD49FF000FECDAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = lahackapp/lahackapp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"lahackapp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bowen.lahackapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0858AF9F2BD49FF000FECDAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = lahackapp/lahackapp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"lahackapp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bowen.lahackapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0858AFA12BD49FF000FECDAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bowen.lahackappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lahackapp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/lahackapp";
+			};
+			name = Debug;
+		};
+		0858AFA22BD49FF000FECDAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bowen.lahackappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lahackapp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/lahackapp";
+			};
+			name = Release;
+		};
+		0858AFA42BD49FF000FECDAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bowen.lahackappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = lahackapp;
+			};
+			name = Debug;
+		};
+		0858AFA52BD49FF000FECDAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bowen.lahackappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = lahackapp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0858AF732BD49FEF00FECDAE /* Build configuration list for PBXProject "lahackapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0858AF9B2BD49FF000FECDAE /* Debug */,
+				0858AF9C2BD49FF000FECDAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0858AF9D2BD49FF000FECDAE /* Build configuration list for PBXNativeTarget "lahackapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0858AF9E2BD49FF000FECDAE /* Debug */,
+				0858AF9F2BD49FF000FECDAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0858AFA02BD49FF000FECDAE /* Build configuration list for PBXNativeTarget "lahackappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0858AFA12BD49FF000FECDAE /* Debug */,
+				0858AFA22BD49FF000FECDAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0858AFA32BD49FF000FECDAE /* Build configuration list for PBXNativeTarget "lahackappUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0858AFA42BD49FF000FECDAE /* Debug */,
+				0858AFA52BD49FF000FECDAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0858AF702BD49FEF00FECDAE /* Project object */;
+}
