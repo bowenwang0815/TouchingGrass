@@ -1,24 +1,46 @@
-//
-//  ContentView.swift
-//  lahackapp
-//
-//  Created by Bowen Wang on 4/20/24.
-//
-
 import SwiftUI
+import UIKit // Add this import
+import GoogleGenerativeAI
+
+
 
 struct ContentView: View {
+    @State private var image: Image?
+    @State private var showingImagePicker = false
+    @State private var showingCameraPicker = false
+    @State private var plantInfo = ""
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            image?
+                .resizable()
+                .scaledToFit()
+            
+            Button("Select Image") {
+                showingImagePicker = true
+            }
+            .padding()
+            
+            Button("Take Photo") {
+                showingCameraPicker = true
+            }
+            .padding()
+            
+            Text(plantInfo)
+                .padding()
+        }
+        .sheet(isPresented: $showingImagePicker) {
+            ImagePicker(image: $image, plantInfo: $plantInfo, sourceType: .photoLibrary)
+        }
+        .sheet(isPresented: $showingCameraPicker) {
+            ImagePicker(image: $image, plantInfo: $plantInfo, sourceType: .camera)
         }
         .padding()
     }
 }
 
-#Preview {
-    ContentView()
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
 }

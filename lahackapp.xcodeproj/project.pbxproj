@@ -14,6 +14,11 @@
 		0858AF8E2BD49FF000FECDAE /* lahackappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0858AF8D2BD49FF000FECDAE /* lahackappTests.swift */; };
 		0858AF982BD49FF000FECDAE /* lahackappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0858AF972BD49FF000FECDAE /* lahackappUITests.swift */; };
 		0858AF9A2BD49FF000FECDAE /* lahackappUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0858AF992BD49FF000FECDAE /* lahackappUITestsLaunchTests.swift */; };
+		0858AFA72BD4A10C00FECDAE /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0858AFA62BD4A10C00FECDAE /* ImagePicker.swift */; };
+		0858AFAA2BD4A23600FECDAE /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0858AFA92BD4A23600FECDAE /* APIKey.swift */; };
+		0858AFAC2BD4A2D000FECDAE /* GeminiAPI.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0858AFAB2BD4A2D000FECDAE /* GeminiAPI.plist */; };
+		0858AFAE2BD4A3B300FECDAE /* GoogleGenerativeAI in Frameworks */ = {isa = PBXBuildFile; productRef = 0858AFAD2BD4A3B300FECDAE /* GoogleGenerativeAI */; };
+		0858AFB22BD4B73700FECDAE /* CameraPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0858AFB12BD4B73700FECDAE /* CameraPicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +50,10 @@
 		0858AF932BD49FF000FECDAE /* lahackappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lahackappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0858AF972BD49FF000FECDAE /* lahackappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lahackappUITests.swift; sourceTree = "<group>"; };
 		0858AF992BD49FF000FECDAE /* lahackappUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lahackappUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0858AFA62BD4A10C00FECDAE /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		0858AFA92BD4A23600FECDAE /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
+		0858AFAB2BD4A2D000FECDAE /* GeminiAPI.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = GeminiAPI.plist; sourceTree = "<group>"; };
+		0858AFB12BD4B73700FECDAE /* CameraPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0858AFAE2BD4A3B300FECDAE /* GoogleGenerativeAI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,9 +107,13 @@
 			children = (
 				0858AF7B2BD49FEF00FECDAE /* lahackappApp.swift */,
 				0858AF7D2BD49FEF00FECDAE /* ContentView.swift */,
+				0858AFA62BD4A10C00FECDAE /* ImagePicker.swift */,
+				0858AFAB2BD4A2D000FECDAE /* GeminiAPI.plist */,
+				0858AFA92BD4A23600FECDAE /* APIKey.swift */,
+				0858AF822BD49FF000FECDAE /* Preview Content */,
 				0858AF7F2BD49FF000FECDAE /* Assets.xcassets */,
 				0858AF812BD49FF000FECDAE /* lahackapp.entitlements */,
-				0858AF822BD49FF000FECDAE /* Preview Content */,
+				0858AFB12BD4B73700FECDAE /* CameraPicker.swift */,
 			);
 			path = lahackapp;
 			sourceTree = "<group>";
@@ -145,6 +159,9 @@
 			dependencies = (
 			);
 			name = lahackapp;
+			packageProductDependencies = (
+				0858AFAD2BD4A3B300FECDAE /* GoogleGenerativeAI */,
+			);
 			productName = lahackapp;
 			productReference = 0858AF782BD49FEF00FECDAE /* lahackapp.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +234,9 @@
 				Base,
 			);
 			mainGroup = 0858AF6F2BD49FEF00FECDAE;
+			packageReferences = (
+				0858AFA82BD4A1A000FECDAE /* XCRemoteSwiftPackageReference "generative-ai-swift" */,
+			);
 			productRefGroup = 0858AF792BD49FEF00FECDAE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -234,6 +254,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0858AF842BD49FF000FECDAE /* Preview Assets.xcassets in Resources */,
+				0858AFAC2BD4A2D000FECDAE /* GeminiAPI.plist in Resources */,
 				0858AF802BD49FF000FECDAE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,7 +280,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0858AFA72BD4A10C00FECDAE /* ImagePicker.swift in Sources */,
 				0858AF7E2BD49FEF00FECDAE /* ContentView.swift in Sources */,
+				0858AFAA2BD4A23600FECDAE /* APIKey.swift in Sources */,
+				0858AFB22BD4B73700FECDAE /* CameraPicker.swift in Sources */,
 				0858AF7C2BD49FEF00FECDAE /* lahackappApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,11 +441,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = lahackapp/lahackapp.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"lahackapp/Preview Content\"";
+				DEVELOPMENT_TEAM = 79D6GYW5F9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Please allow user to use camera";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -432,7 +459,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.3;
@@ -453,11 +480,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = lahackapp/lahackapp.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"lahackapp/Preview Content\"";
+				DEVELOPMENT_TEAM = 79D6GYW5F9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Please allow user to use camera";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -468,7 +498,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.3;
@@ -609,6 +639,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0858AFA82BD4A1A000FECDAE /* XCRemoteSwiftPackageReference "generative-ai-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/generative-ai-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.4.11;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0858AFAD2BD4A3B300FECDAE /* GoogleGenerativeAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0858AFA82BD4A1A000FECDAE /* XCRemoteSwiftPackageReference "generative-ai-swift" */;
+			productName = GoogleGenerativeAI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0858AF702BD49FEF00FECDAE /* Project object */;
 }
