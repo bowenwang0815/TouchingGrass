@@ -19,6 +19,7 @@
 		0858AFAC2BD4A2D000FECDAE /* GeminiAPI.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0858AFAB2BD4A2D000FECDAE /* GeminiAPI.plist */; };
 		0858AFAE2BD4A3B300FECDAE /* GoogleGenerativeAI in Frameworks */ = {isa = PBXBuildFile; productRef = 0858AFAD2BD4A3B300FECDAE /* GoogleGenerativeAI */; };
 		0858AFB22BD4B73700FECDAE /* CameraPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0858AFB12BD4B73700FECDAE /* CameraPicker.swift */; };
+		C20E19572BD4FDCD003CAF8E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C20E19562BD4FDCD003CAF8E /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		0858AFA92BD4A23600FECDAE /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
 		0858AFAB2BD4A2D000FECDAE /* GeminiAPI.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = GeminiAPI.plist; sourceTree = "<group>"; };
 		0858AFB12BD4B73700FECDAE /* CameraPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPicker.swift; sourceTree = "<group>"; };
+		C20E19562BD4FDCD003CAF8E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				0858AFA92BD4A23600FECDAE /* APIKey.swift */,
 				0858AF822BD49FF000FECDAE /* Preview Content */,
 				0858AF7F2BD49FF000FECDAE /* Assets.xcassets */,
+				C20E19562BD4FDCD003CAF8E /* Images.xcassets */,
 				0858AF812BD49FF000FECDAE /* lahackapp.entitlements */,
 				0858AFB12BD4B73700FECDAE /* CameraPicker.swift */,
 			);
@@ -254,6 +257,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0858AF842BD49FF000FECDAE /* Preview Assets.xcassets in Resources */,
+				C20E19572BD4FDCD003CAF8E /* Images.xcassets in Resources */,
 				0858AFAC2BD4A2D000FECDAE /* GeminiAPI.plist in Resources */,
 				0858AF802BD49FF000FECDAE /* Assets.xcassets in Resources */,
 			);
